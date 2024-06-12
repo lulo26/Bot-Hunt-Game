@@ -1,0 +1,229 @@
+﻿Build1=Default,b4a.example
+File1=BackgroundDay.png
+File10=BotHurt.mp3
+File11=BotLanguage.png
+File12=BtnAbout.png
+File13=BtnLeadership.png
+File14=BtnLeft.png
+File15=BtnLogIn.png
+File16=BtnLvl1.png
+File17=BtnLvl2.png
+File18=BtnLvl3.png
+File19=BtnOptions.png
+File2=BackgroundNight.png
+File20=BtnRegister.png
+File21=BtnRegisterBot.png
+File22=BtnRegistershadow.png
+File23=BtnShadowLeft.png
+File24=Defeat.mp3
+File25=Duck Hunt Medley.mp3
+File26=FrmAbout.bal
+File27=FrmLanguageSelect.bal
+File28=FrmLeadership.bal
+File29=FrmLevel1.bal
+File3=BackgroundNoon.png
+File30=FrmLevel2.bal
+File31=FrmLevel3.bal
+File32=FrmLevels.bal
+File33=FrmLogIn.bal
+File34=FrmOptions.bal
+File35=FrmRegister.bal
+File36=FrmTitleScreen.bal
+File37=GameData.txt
+File38=gameplayBot.png
+File39=GrassDay.png
+File4=BgSkyNight.png
+File40=GrassNight.png
+File41=GrassNoon.png
+File42=Hits.png
+File43=HitsDefault.png
+File44=HitsMiss.png
+File45=HitsWin.png
+File46=ImgAbout.png
+File47=Level Clear.mp3
+File48=Level Start.mp3
+File49=logo.png
+File5=BigSpace-rPKx.ttf
+File50=logov2.png
+File51=Lulo title screen.png
+File52=LuloLanguage.png
+File53=LvlBlocked.png
+File54=MaldiniBold-OVZO6.ttf
+File55=Miss [laugh].mp3
+File56=NoMoreBullets.mp3
+File57=Perfect Score.mp3
+File58=robot tittle screen.png
+File59=Score.png
+File6=BotFlying.mp3
+File60=Shot.mp3
+File61=Shots.png
+File62=ShotsIcon.png
+File63=ShotWin.mp3
+File64=soundoff.png
+File65=soundon.png
+File66=Stage Clear.mp3
+File67=Victory Duck Hunt.mp3
+File7=BotFlying.png
+File8=BotHit.png
+File9=BotHit2.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=b4xtable
+Library2=core
+Library3=xui
+Library4=xui views
+Library5=gameview
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=FrmAbout
+Module10=FrmRegister
+Module11=FrmTitleScreen
+Module12=Func_Gameplay
+Module13=Functions
+Module14=Starter
+Module2=FrmGamePlay
+Module3=FrmLanguageSelect
+Module4=FrmLeadership
+Module5=FrmLevel2
+Module6=FrmLevel3
+Module7=FrmLevels
+Module8=FrmLogIn
+Module9=FrmOptions
+NumberOfFiles=67
+NumberOfLibraries=5
+NumberOfModules=14
+Version=12.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+#ApplicationLabel: BotHunt
+#VersionCode: 1
+#VersionName: BETA
+#SupportedOrientations: Landscape
+#CanInstallToExternalStorage: true
+#FullScreen: true
+#BridgeLogger: true
+#Region  Activity Attributes 
+	#FullScreen: True
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private LblSelectLanguage As Label
+	Private Label2 As Label
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("FrmLanguageSelect")
+	If Functions.Spanish = True Then
+		LblSelectLanguage.Text = "Seleccione el Idioma"
+		Label2.Text = "Seleccione el Idioma"
+	Else
+		LblSelectLanguage.Text = "Language Select"
+		Label2.Text = "Language Select"
+	End If
+End Sub
+
+Sub Activity_Resume
+	If Functions.Spanish = True Then
+		LblSelectLanguage.Text = "Seleccione el Idioma"
+		Label2.Text = "Seleccione el Idioma"
+	Else
+		LblSelectLanguage.Text = "Language Select"
+		Label2.Text = "Language Select"
+	End If
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Private Sub BtnSpanish_Click
+	StartActivity("FrmTitleScreen")
+	Functions.Spanish = True
+End Sub
+
+Private Sub BtnEnglish_Click
+	Functions.Spanish = False
+	StartActivity("FrmTitleScreen")
+	Functions.Spanish = False
+	
+End Sub
